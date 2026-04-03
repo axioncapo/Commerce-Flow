@@ -1,0 +1,21 @@
+[package]
+name = "dante/commerce-flow"
+description = "Declarative Roblox commerce framework for products and gamepasses"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = [
+    ".git/**",
+    ".gitignore",
+    "CommerceFlow.rbxlx",
+    "*.rbxlx",
+    "*.rbxl",
+    "*.lock",
+    "default.project.json",
+    "sourcemap.json",
+    "examples/**",
+    "src/client/**",
+    "src/server/**",
+]
+
+[dependencies]
